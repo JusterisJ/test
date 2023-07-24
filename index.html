@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dFlex aCenter jCenter">
+
+<div class="loginPage dFlex flexColumn gap20 mt50">
+    <span class="usernameDiv">Username:</span>
+    <input class="loginUsername" type="text">
+    <div>
+        <button class="buttonLogin">Login</button>
+    </div>
+    <div class="loginError"></div>
+</div>
+
+<div class="mainPage dFlex flexColumn dNone">
+    <div class="usernameDiv"></div>
+    <div class="dFlex gap20 mt20">
+        <div class="buttonHuge buttonProfile dFlex flexColumn aCenter jStart">
+            <div class="mt20">
+                Profile
+            </div>
+            <img class="mainPageBigPhoto mt50" src="" alt="">
+
+        </div>
+        <div class="buttonHuge buttonMovies dFlex flexColumn aCenter jStart">
+            <div class="mt20">
+                Movies
+            </div>
+            <img class="mainPageMoviePoster mt50" src="" alt="">
+
+        </div>
+    </div>
+</div>
+
+
+<div class="profilePage dNone">
+    <div class="usernameDiv"></div>
+    <div>
+        Change Photo: <input class="changePhoto" type="text">
+    </div>
+    <div>
+        Change Username: <input class="changeUsername" type="text">
+        <span class="changeUsernameError"></span>
+    </div>
+    <div>
+        Change Gender: <select class="changeGender" name="" id="">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    </div>
+    <button class="buttonEditProfile">Save</button>
+</div>
+
+<div class="moviesPage dNone">
+    <div class="movies dFlex gap20">
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+    </div>
+</div>
+
+<div class="reservationPage dNone dFlex gap20">
+    <div class="leftSide flex1">
+        <img src="" alt="">
+        <div class="movieTitle"></div>
+        <div class="movieInfo"></div>
+    </div>
+    <div class="rightSide flex2">
+        <div class="seats dFlex">
+
+        </div>
+            <button class="reserveSeats mt20">
+                Reserve
+            </button>
+    </div>
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>
